@@ -62,3 +62,14 @@ You can view and interact with the deployed version of this project on Streamlit
    - The extracted text will be displayed on the page.
    - Enter a keyword in the search box to find it in the extracted text.
    - If found, the matching sections will be highlighted.
+
+## Screenshot of webapp :
+
+![Screenshot from 2024-10-01 02-27-48](https://github.com/user-attachments/assets/945c61f6-d011-43d0-b206-3030cc0f0c3c)
+#
+![Screenshot from 2024-10-01 03-05-54](https://github.com/user-attachments/assets/1aa7e51c-3470-4c1b-a855-7f16ed1879a4)
+# 
+![Screenshot from 2024-10-01 03-06-19](https://github.com/user-attachments/assets/29c9c642-12a3-43d6-8560-89aef4813cce)
+#
+![Screenshot from 2024-10-01 03-07-19](https://github.com/user-attachments/assets/2f524ffe-ae65-4e18-8b2f-95869792bfaa)
+#
