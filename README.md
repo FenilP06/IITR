@@ -15,6 +15,12 @@ This is a simple web application built with Streamlit that allows users to uploa
 - **Tesseract OCR**: A library for Optical Character Recognition.
 - **OpenCV**: A library for computer vision tasks.
 
+# Live Demo
+
+You can view and interact with the deployed version of this project on Streamlit at the following link:
+
+[View Project on Streamlit](https://fenilocr.streamlit.app/)
+
 ## Installation
 
 1. **Clone the Repository**:
