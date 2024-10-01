@@ -34,8 +34,8 @@ def main():
         layout="wide"
     )
     logo = "./logo.png" 
-    st.image(logo, width=100)  
-    st.image(logo, use_column_width=True) 
+    st.image(logo, width=120)  
+    
     st.title("Welcome to Fenil's OCR Text Extraction Tool")
     st.write("Upload an image containing text, and I will extract the text for you. You can search for specific keywords within the extracted text.")
     
