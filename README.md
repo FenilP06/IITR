@@ -33,7 +33,7 @@ You can view and interact with the deployed version of this project on Streamlit
 2. **Create a Virtual Environment (optional but recommended)**:
    - Run the following commands:
      ```bash
-     python -m venv ocr_env
+     python3 -m venv ocr_env
      On Windows use `ocr_env\Scripts\activate`
      On Linux use 'source ocr_env/bin/activate'
      ```
@@ -49,7 +49,7 @@ You can view and interact with the deployed version of this project on Streamlit
 1. **Run the Streamlit Application**:
    - Use the command:
      ```bash
-     streamlit run app.py
+     streamlit run ocr_streamlit_app.py
      ```
 
 2. **Open the Application**:
