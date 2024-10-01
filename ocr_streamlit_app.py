@@ -34,14 +34,7 @@ def main():
         layout="wide"
     )
     logo = "./logo.png" 
-    st.markdown(
-            f"""
-            <div style='text-align: left;'>
-                <img src='{logo}' width='100px' style='position: relative; top: 10px; left: 10px;'>
-            </div>
-            """,
-            unsafe_allow_html=True
-    )
+    st.image(logo, width=100)  
     st.image(logo, use_column_width=True) 
     st.title("Welcome to Fenil's OCR Text Extraction Tool")
     st.write("Upload an image containing text, and I will extract the text for you. You can search for specific keywords within the extracted text.")
