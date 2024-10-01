@@ -2,9 +2,9 @@ import streamlit as st
 from PIL import Image
 import pytesseract
 
-def extract_text_from_image(image):
+def extract_text_from_image(image,lang='hin',lang='eng'):
     image_pil = Image.open(image)
-    text = pytesseract.image_to_string(image_pil)
+    text = pytesseract.image_to_string(image_pil,lang='hin',lang='eng')
     return text
 
 def search_keyword(extracted_text, keyword):
