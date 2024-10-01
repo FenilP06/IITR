@@ -24,7 +24,7 @@ def search_keyword(extracted_text, keyword):
 
 def main():
     st.set_page_config(page_title="OCR Text Extraction Tool", page_icon="🖼️", layout="wide")
-    st.title("Welcome to the OCR Text Extraction Tool")
+    st.title("Welcome to Fenil OCR Text Extraction Tool")
     st.write("Upload an image containing text, and we will extract the text for you. You can then search for specific keywords within the extracted text.")
     
     uploaded_file = st.file_uploader("Choose an image to upload", type=["jpg", "jpeg", "png"])
