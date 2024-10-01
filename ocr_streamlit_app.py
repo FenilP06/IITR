@@ -30,10 +30,10 @@ def search_keyword(extracted_text, keyword):
 def main():
     st.set_page_config(
         page_title="OCR Text Extraction Tool", 
-        page_icon="path/to/logo.png", 
+        page_icon="./logo.png", 
         layout="wide"
     )
-    logo = "path/to/logo.png"  # Update this path to your logo file
+    logo = "./logo.png" 
     st.image(logo, use_column_width=True) 
     st.title("Welcome to Fenil's OCR Text Extraction Tool")
     st.write("Upload an image containing text, and I will extract the text for you. You can search for specific keywords within the extracted text.")
