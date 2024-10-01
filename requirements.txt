@@ -88,3 +88,4 @@ easyocr
 opencv-python-headless
 pytesseract
 Pillow
+pillow
