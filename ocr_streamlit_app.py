@@ -2,10 +2,10 @@ import streamlit as st
 from PIL import Image
 import pytesseract
 
-def extract_text_from_image(image, lang='hin+eng'):  # Use '+' to separate languages
+def extract_text_from_image(image, lang='hin+eng'): 
     try:
         image_pil = Image.open(image)
-        text = pytesseract.image_to_string(image_pil, lang=lang)  # Use lang parameter
+        text = pytesseract.image_to_string(image_pil, lang=lang) 
         return text
     except pytesseract.pytesseract.TesseractNotFoundError:
         return "Tesseract not found. Please check the installation."
@@ -30,12 +30,12 @@ def search_keyword(extracted_text, keyword):
 def main():
     st.set_page_config(page_title="OCR Text Extraction Tool", page_icon="🖼️", layout="wide")
     st.title("Welcome to Fenil's OCR Text Extraction Tool")
-    st.write("Upload an image containing text, and we will extract the text for you. You can then search for specific keywords within the extracted text.")
+    st.write("Upload an image containing text, and I will extract the text for you. You can search for specific keywords within the extracted text.")
     
     uploaded_file = st.file_uploader("Choose an image to upload", type=["jpg", "jpeg", "png"])
     
     if uploaded_file:
-        extracted_text = extract_text_from_image(uploaded_file, lang='hin+eng')  # Pass lang parameter
+        extracted_text = extract_text_from_image(uploaded_file, lang='hin+eng')
         st.write("### Extracted Text:")
         st.write(extracted_text)
 
@@ -44,6 +44,7 @@ def main():
             search_result = search_keyword(extracted_text, keyword)
             st.write("### Search Result:")
             st.markdown(search_result, unsafe_allow_html=True)
+            st.write("### Thank you !")
 
 if __name__ == "__main__":
     main()
