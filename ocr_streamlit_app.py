@@ -22,7 +22,7 @@ def search_keyword(extracted_text, keyword):
 
     if all_found:
         for kw in keywords:
-            highlighted_text = highlighted_text.replace(kw, f"<span style='background-color: #ffeb3b; color: black; font-weight: bold;'>{kw}</span>")
+            highlighted_text = highlighted_text.replace(kw, f"<span style='background-color: #FFFF00; color: black; font-weight: bold;'>{kw}</span>")
         return f"**Keywords Found:** <br> {highlighted_text}"
     else:
         return "❌ **Keywords not found in the extracted text.**"
